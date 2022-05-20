@@ -1,41 +1,25 @@
-## Welcome to GitHub Pages
+# Simple GitHub Pages / Doxygen test
 
-[View this page on github.io](https://bit-hack.github.io/test.io/).
 
-[View the doxygen](https://bit-hack.github.io/test.io/html/index.html)
 
-You can use the [editor on GitHub](https://github.com/bit-hack/test.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is a landing page and has just been written in markdown to show the following:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- This repository can be viewed as source [here](https://github.com/bit-hack/test.io).
 
-### Markdown
+- It can also be viewed as a page on github.io [here](https://bit-hack.github.io/test.io/).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- You can directly view the html doxygen online [here](https://bit-hack.github.io/test.io/html/index.html).
 
-```markdown
-Syntax highlighted code block
+- You can link to other markdown files [here](other.md).
 
-# Header 1
-## Header 2
-### Header 3
+----
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Because this is markdown code blocks still work as expected:
+```c
+		double cutoff = 2.0 * cutoff / sample_rate;
+		double res    = 1.0;  // pow(10.0, 0.05 * -res_slider);
+		double k      = 0.5 * res * sin(pi * cutoff);
+		double c1     = 0.5 * (1.0 - k) / (1.0 + k);
+		double c2     = (0.5 + c1) * cos(pi * cutoff);
+		double c3     = (0.5 + c1 - c2) * 0.25;
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bit-hack/test.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
